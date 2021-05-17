@@ -3,7 +3,8 @@
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #505962;
+  color: #36393c;
+  background-color: #36393c;
 }
 
 /*---NAVBAR---*/
@@ -27,7 +28,7 @@ body {
 }
 .navbar-dark .navbar-nav .navbar-link.active, 
 .navbar-dark .navbar-nav .navbar-link:hover {
-  color: #1ebba3;
+  color: #00fcd6;
 }
 
 /*---SLIDER---*/
@@ -35,9 +36,10 @@ body {
 .carousel-item {
   height: 100vh;
   opacity: .9;
+  width: 100vw;
 }
 .carousel-caption {
-  color: black;
+  color: white;
 }
 .carousel-control {
   color: black;
@@ -72,6 +74,11 @@ body {
   border-color: #189582;
   background-color: #189582;
   color: white;
+}
+
+.locatie {
+  height: 80vh;
+  width: 80vw;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
